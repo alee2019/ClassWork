@@ -1,14 +1,14 @@
 /**
-*<This doc contains multiple functions. The ones specific for printing stars in a nested
+*This doc contains multiple functions. The ones specific for printing stars in a nested
 *loop are the last two functions. For the last two functions, they print stars in a staircase
-*either upwards or downwards.
+*either upwards or downwards. It does this by using nested while loops.
 *@author Andrew Lee
 *8/2/16
 */
 public class Loops
 {
 	/**
-	  * This is the main method that the java interpreter calls.
+	  * This is the main method that the java interpreter calls. 
 	  * @param args This is a command line argument
 	  */
 	public static void main(String[] args)
@@ -96,9 +96,9 @@ public class Loops
 	
 	/**
 	  * This is the method that prints out a staircase starting with one star and increasing
-	  *to whatever n is
+	  * to whatever n is.
 	  * @param n This is the variable that determines how many stars the last row in the staircase
-	  *will finish with
+	  *will finish with.
 	  */
 	public static void nestedStairCaseUp(int n)
 	{
@@ -121,7 +121,7 @@ public class Loops
 	
 	/**
 	  * This is the method that prints out a staircase starting with one star and decreasing
-	  *to 1 star
+	  * to 1 star
 	  * @param n This is the variable that determines how many stars the last row in the staircase
 	  *will finish with
 	  */

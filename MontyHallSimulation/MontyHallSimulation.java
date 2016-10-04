@@ -1,5 +1,7 @@
 /**
- *This is a simulation to the famous Monty Hall Problem.
+ *This is a simulation to the famous Monty Hall Problem. It provides a percentage for the
+ *chances of winning depending on whether someone switches or stays. The user puts in how many
+ *how many games they want to run.
  *Andrew Lee
  *Ms. Thuzar
  *Monty Hall Simulation
@@ -36,9 +38,10 @@
  	}
  	
  	/**
- 	 * This method takes in a double and truncates it 2 decimal places
- 	 * @param d the double input to be truncated
- 	 * @return double formatted to 2 decimal places
+ 	 * This method takes in a double and truncates it 2 decimal places. It helps to format
+ 	 * the percentage.
+ 	 * @param d The double input to be truncated
+ 	 * @return double formatted to 2 decimal places. (temp/100.0)
  	 */
  	 public static double format(double d)
  	 {

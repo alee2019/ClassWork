@@ -4,7 +4,7 @@
  *Ms. Thuzar
  *Monty Hall Game
  *8/2/16
- * @return r Helps figure out which door to reveal next.
+ *@return r Helps figure out which door to reveal next.
  */
 
 import java.util.Scanner;
@@ -78,7 +78,9 @@ public class MontyHallGame
 	  * This is only one of the ways to write it. The other method is below
 	  *@param c This represents which door the car is in.
 	  *@param u This represents which door the user picked.
-	  @return i This is the door that will be revealed
+	  *@return i This is the door that will be revealed
+	  *@return -1 This is just a return statement because for all cases regardless of logic or not,
+	  *there must be a return statement.
 	  */
 	public static int doorToReveal(int c, int u)
 	{

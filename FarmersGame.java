@@ -25,7 +25,8 @@ public class FarmersGame
 	}
 	
 	/**
-	*This is the welcome method
+	*This is the welcome method. How it works is there is no return type, as the title of the
+	*game is being printed.
 	*/
 	public static void welcome()
 	{
@@ -34,7 +35,8 @@ public class FarmersGame
 	
 	/**
 	*This method displays the status of the game. It is used frequently to check which things
-	*are on which bank.
+	*are on which bank. It does this by "flipping" each of the boolean variables between
+	*true and false.
 	*/
 	public static void displayGameStatus()
 	{
@@ -65,7 +67,10 @@ public class FarmersGame
 		System.out.println(bank1);
 	}
 	/**
-	 *This is the main game method
+	 *This is the main game method. There is no return type, hence the void. Inside there is
+	 *a while loop that continuously asks the user to input a variable so that they can win the game.
+	 *Also, it double checks to see that the restrictions are met each time they input something.
+	 *X starts off at 0, and once the person wins or loses the game will x become 1.
 	 */
 	public static void game()
 	{

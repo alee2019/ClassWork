@@ -12,7 +12,8 @@ import java.util.Scanner;
  public class ChatBotLee
 {
 	/**
-	  * This is the main method that the java interpreter calls. 
+	  * This is the main method that the java interpreter calls. Inside is the entirety of
+	  * the ChatBot.
 	  * @param args This is a command line argument
 	  */
 	public static void main(String[] args)
